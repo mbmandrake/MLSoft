@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CuekrsBWlv+ZlBDZR+cT8QuPOkCp1p6RtBISpxhKU7bSTTKqeXDgLsYSmz8Xg743HG19qxr4RYv3VnEoqqTaVA==",
+  "dgSpecHash": "aDKDJHcFGIh9hv3vb7IInjWrCNLmiMbnVtMgA/lXuOPwqXzo5Ija46r0fYk2Zcaq7tZZLSbUM4RS18oqtEqkCA==",
   "success": true,
-  "projectFilePath": "/home/runner/C/main.csproj",
+  "projectFilePath": "/home/runner/MLSoft/main.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
