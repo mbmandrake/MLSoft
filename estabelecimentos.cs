@@ -34,4 +34,6 @@ class estabelecimentos {
   public void addIndicacao() {
     _qtdIndicacao ++;
   }
+
+  public virtual void editCidade (string n) {}
 }

@@ -8,13 +8,6 @@ class relatorio {
     _estabelecimento.Add(e);
   }
 
-  public void exibirEstabelecimentos() {
-    Console.WriteLine("\nEstabelecimentos cadastrados: ");
-    foreach (estabelecimentos e in _estabelecimento){
-      Console.WriteLine(e.Nome);
-    }
-  } 
-
   public void exibirIndicacoes() {
     int maior = 0;
     string nMaior = "";
@@ -37,6 +30,13 @@ class relatorio {
     }
     
   }
+
+  public void exibirEstabelecimentos() {
+    Console.WriteLine("\nEstabelecimentos cadastrados: ");
+    foreach (estabelecimentos e in _estabelecimento){
+      Console.WriteLine(e.Nome);
+    }
+  } 
 
   public void qtdIndicacao (estabelecimentos e) {
     Console.WriteLine("\n{0} tem um total de {1} indicações ", e.Nome, e.QtdIndicacao);

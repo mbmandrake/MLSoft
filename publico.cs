@@ -4,4 +4,8 @@ class publico : estabelecimentos {
   public publico (string n, int qi, int x, int y, string c) : base (n, qi, x, y) {
     cidade = c;
   }
+
+  public override void editCidade (string n) {
+    cidade = n;
+  }
 }
