@@ -9,7 +9,7 @@ class relatorio {
   }
 
   public void exibirEstabelecimentos() {
-    Console.WriteLine("");
+    Console.WriteLine("\nEstabelecimentos cadastrados: ");
     foreach (estabelecimentos e in _estabelecimento){
       Console.WriteLine(e.Nome);
     }

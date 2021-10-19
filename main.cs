@@ -14,7 +14,9 @@ class Program {
     r.addEstabelecimento(posto2);
 
     r.exibirIndicacoes();
+
     r.exibirEstabelecimentos();
+    
     r.exibirRecomendacao(posto1);
     r.exibirRecomendacao(posto2);
   }
