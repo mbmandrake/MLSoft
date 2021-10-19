@@ -33,9 +33,13 @@ class relatorio {
     Console.WriteLine("");
 
     foreach (estabelecimentos e in _estabelecimento){
-      Console.WriteLine("Posto {0} tem um total de {1} indicações ", e.Nome, e.QtdIndicacao);
+      Console.WriteLine("{0} tem um total de {1} indicações ", e.Nome, e.QtdIndicacao);
     }
     
+  }
+
+  public void qtdIndicacao (estabelecimentos e) {
+    Console.WriteLine("\n{0} tem um total de {1} indicações ", e.Nome, e.QtdIndicacao);
   }
 
   public void exibirRecomendacao (estabelecimentos e) {

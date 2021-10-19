@@ -19,5 +19,7 @@ class Program {
     
     r.exibirRecomendacao(posto1);
     r.exibirRecomendacao(posto2);
+
+    r.qtdIndicacao(posto2);
   }
 }
